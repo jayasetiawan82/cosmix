@@ -6,7 +6,7 @@
   and retain their ownership by, their respective copyright holders.
 -->
 
-<html>
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -49,7 +49,7 @@
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-          <a class="navbar-brand" href="#menu"><img src="images/Logo/01.png" alt=""></a> </div>
+          <a class="navbar-brand" href="#menu"><img src="images/Logo/01.png" alt="logo">logo</a> </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
@@ -107,7 +107,7 @@
           </div>
         </div>
       </div>
-      <a class="home-carousel-left" href="#home-carousel" data-slide="prev"><i class="fa fa-angle-left"></i></a> <a class="home-carousel-right" href="#home-carousel" data-slide="next"><i class="fa fa-angle-right"></i></a> </div>
+      <a class="home-carousel-left" href="#home-carousel" data-slide="prev" aria-label="first link"><i class="fa fa-angle-left"></i></a> <a class="home-carousel-right" href="#home-carousel" data-slide="next"><i class="fa fa-angle-right"></i></a> </div>
   </div>
   <!--/#home-carousel-->
 </section>
@@ -168,7 +168,7 @@
         <!--/.col-md-4-->
         <div class="col-md-4 col-sm-6 col-xs-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="100ms">
           <div class="media service-box">
-            <div class="pull-left"> <i class="fa fa-cubes"></i> </div>
+            <div class="pull-left"> <span class="fa fa-cubes"></span> </div>
             <div class="media-body">
               <h5 class="media-heading">UI Design</h5>
               <p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters greater</p>
@@ -724,13 +724,13 @@
 <div id="client">
   <div class="container">
     <div id="client-slider" class="owl-carousel">
-      <div class="item client-logo"> <a href="#"><img src="images/clients/1.png" class="img-responsive" alt=""/></a> </div>
-      <div class="item client-logo"> <a href="#"><img src="images/clients/2.png" class="img-responsive" alt=""/></a> </div>
-      <div class="item client-logo"> <a href="#"><img src="images/clients/3.png" class="img-responsive" alt=""/></a> </div>
-      <div class="item client-logo"> <a href="#"><img src="images/clients/4.png" class="img-responsive" alt=""/></a> </div>
-      <div class="item client-logo"> <a href="#"><img src="images/clients/5.png" class="img-responsive" alt=""/></a> </div>
-      <div class="item client-logo"> <a href="#"><img src="images/clients/6.png" class="img-responsive" alt=""/></a> </div>
-      <div class="item client-logo"> <a href="#"><img src="images/clients/7.png" class="img-responsive" alt=""/></a> </div>
+      <div class="item client-logo"> <a href="#"><img src="images/clients/1.png" class="img-responsive" alt="client 1"/></a> </div>
+      <div class="item client-logo"> <a href="#"><img src="images/clients/2.png" class="img-responsive" alt="client 2"/></a> </div>
+      <div class="item client-logo"> <a href="#"><img src="images/clients/3.png" class="img-responsive" alt="client 3"/></a> </div>
+      <div class="item client-logo"> <a href="#"><img src="images/clients/4.png" class="img-responsive" alt="client 4"/></a> </div>
+      <div class="item client-logo"> <a href="#"><img src="images/clients/5.png" class="img-responsive" alt="client 5"/></a> </div>
+      <div class="item client-logo"> <a href="#"><img src="images/clients/6.png" class="img-responsive" alt="client 6"/></a> </div>
+      <div class="item client-logo"> <a href="#"><img src="images/clients/7.png" class="img-responsive" alt="client 7"/></a> </div>
     </div>
   </div>
 </div>
@@ -768,20 +768,20 @@
           <div class="row  wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
             <div class="col-sm-6">
               <div class="form-group">
-                <input type="text" name="name" class="form-control" placeholder="Name" required="required">
+                <input title="name" type="text" name="name" class="form-control" placeholder="Name" required="required">
               </div>
             </div>
             <div class="col-sm-6">
               <div class="form-group">
-                <input type="email" name="email" class="form-control" placeholder="Email Address" required="required">
+                <input title="email" type="email" name="email" class="form-control" placeholder="Email Address" required="required">
               </div>
             </div>
           </div>
           <div class="form-group">
-            <input type="text" name="subject" class="form-control" placeholder="Subject" required="required">
+            <input title="subject" type="text" name="subject" class="form-control" placeholder="Subject" required="required">
           </div>
           <div class="form-group">
-            <textarea name="message" id="message" class="form-control" rows="4" placeholder="Enter your message" required="required"></textarea>
+            <textarea title="message" name="message" id="message" class="form-control" rows="4" placeholder="Enter your message" required="required"></textarea>
           </div>
           <a class="btn-send col-md-12 col-sm-12 col-xs-12" href="#">Send Now</a>
         </form>
